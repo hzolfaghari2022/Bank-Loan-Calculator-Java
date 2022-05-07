@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="109.0" layoutY="40.0" onAction="#handleButtonAction" prefHeight="29.0" prefWidth="102.0" text="A Button" />
+        <Label fx:id="label" layoutX="126.0" layoutY="81.0" minHeight="16" minWidth="69" />
+        <ColorPicker fx:id="ColorPicker1" layoutX="171.0" layoutY="149.0" onAction="#handleColorPicker1Atcion" />
+        <Circle fx:id="Circle1" fill="WHITE" layoutX="55.0" layoutY="55.0" radius="34.0" stroke="BLACK" strokeType="INSIDE" />
+        <Button fx:id="button2" layoutX="27.0" layoutY="149.0" mnemonicParsing="false" onAction="#handleSecondButtonAction" text="2nd Button" />
+    </children>
+</AnchorPane>
